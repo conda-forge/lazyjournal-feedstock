@@ -1,6 +1,6 @@
 context:
   name: lazyjournal
-  version: "0.7.5"
+  version: "0.7.6"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/Lifailon/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 6405f53aba44ddf3e7e93b5ed5fc14f0132f6b84b4432e85d57c9ed32d847074
+  sha256: 9a997cdf451c2a5cba4c7ae26656219b8c28146161246e6238e27a723ab99a05
 
 build:
   number: 0
